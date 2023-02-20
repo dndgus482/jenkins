@@ -3,7 +3,7 @@ def call(String name = 'human') {
 
     node {
         stage("git") {
-            git url: 'https://github.com/hyunil-shin/java-maven-junit-helloworld.git', branch: 'failed'
+            git url: 'https://github.com/hyunil-shin/java-maven-junit-helloworld.git', branch: 'master'
 
         }
         
